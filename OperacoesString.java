@@ -1,4 +1,4 @@
-public class String {
+public class OperacoesString {
     String concatenar(String a, String b) {
         a += b;
         return a;

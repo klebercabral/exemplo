@@ -9,6 +9,6 @@ public class TestMatematica {
         }
         @Test
         public void testSomaNegativo() {
-                assertEquals("11 - 1 = 11", 10, Matematica.soma(10, -1));    
+                assertEquals("11 - 1 = 10", 10, Matematica.soma(11, -1));    
         }
 }

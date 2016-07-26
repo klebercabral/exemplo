@@ -7,4 +7,8 @@ public class TestMatematica {
         public void testSoma() {
                 assertEquals("10 + 1 = 11", 11, Matematica.soma(10, 1));    
         }
+        @Test
+        public void testSoma() {
+                assertEquals("11 - 1 = 11", 10, Matematica.soma(10, -1));    
+        }
 }
